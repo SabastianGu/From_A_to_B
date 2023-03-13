@@ -11,8 +11,8 @@ start_url = "https://ru.wikipedia.org/wiki/Xbox_360_S"
 needed_url = 'https://ru.wikipedia.org/wiki/Nintendo_3DS'
 
 
-firefox_service = FireFoxService(executable_path='/Users/saba/Downloads/geckodriver')
-driver = Firefox(service=firefox_service)
+firefox_service = FireFoxService(executable_path='/Users/your/Path/to/geckodriver')
+driver = Firefox(service=firefox_service) 
 
 def find_path(start_url):
     driver.get(start_url)
